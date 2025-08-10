@@ -14,7 +14,7 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
-MINI_APP_URL = os.getenv("MINI_APP_URL", "https://your-vercel-app.vercel.app")
+MINI_APP_URL = os.getenv("MINI_APP_URL", "https://srv896150.hstgr.cloud/")
 
 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 user_data = {}
